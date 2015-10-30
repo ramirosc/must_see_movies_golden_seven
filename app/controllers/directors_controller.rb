@@ -10,8 +10,6 @@ def destroy
     @directors.destroy
   end
 
- def new_form
-  end
 
   def create_row
     @directors = Director.new
