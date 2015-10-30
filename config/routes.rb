@@ -12,5 +12,8 @@ get("/delete_directors/:id", { :controller => 'directors', :action => "destroy" 
   get('/create_row', { :controller => 'directors', :action => 'create_row' })
 
 
+#EDIT
+ get('/directors/:id/edit', { :controller => 'directors', :action => 'edit_form' })
+  get('/update_director/:id', { :controller => 'directors', :action => 'update_row' })
 
 end
